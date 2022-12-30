@@ -1,0 +1,116 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#viewDiv {
+    height: 100%;
+    width: 100%;
+}
+
+#center {
+    background-color: black;
+    height: 700px;
+    width: 200px;
+    overflow: auto;
+    border-radius:15px;
+}
+
+#aa{
+    font-weight: bolder;
+}
+#time {
+    display: inline-block;
+    background-color: black;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+#time span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#time span:after {
+    content: '«';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -150px;
+    transition: 0.5s;
+}
+#time:hover{
+    background-color: gray;
+}
+#time:hover span {
+    padding-left: 25px;
+}
+
+#time:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#champion {
+    display: inline-block;
+    background-color: black;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    /* margin-top: 40px; */
+}
+
+#champion span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#champion span:after {
+    content: '«';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -150px;
+    transition: 0.5s;
+}
+#champion:hover{
+    background-color: gray;
+}
+#champion:hover span {
+    padding-left: 25px;
+}
+
+#champion:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+#aa{
+    color: #FFFFFF;
+}
+
+#xnkl{
+    color: red;
+    cursor: pointer;
+    text-decoration: underline;
+}
